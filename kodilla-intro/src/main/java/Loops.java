@@ -10,7 +10,15 @@ public class Loops {
 
         for (int i = 0; i < names.length; i++) {
             System.out.println(names[i]);
+
+
+        }
+        int i = 0;
+        while (i <= 10) {
+            System.out.println(i);
+            i++;
         }
 
+        
     }
 }
