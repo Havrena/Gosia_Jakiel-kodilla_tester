@@ -9,6 +9,7 @@ public class Account {
         this.age = age;
         this.height = height;
     }
+
     public void checkData() {
         if (this.name != null) {
             if (this.age > 30 && this.height > 160) {
