@@ -1,6 +1,6 @@
-public class BookApp extends Book {
+public class BookApp {
     public static void main(String[] args) {
-        String book = Book.of("Tolkien", "The Hobbit");
+        Book book = Book.of("Tolkien", "The Hobbit");
         System.out.println(book);
     }
 }

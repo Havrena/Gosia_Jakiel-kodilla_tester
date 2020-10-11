@@ -2,11 +2,13 @@ public class Book {
 
     private static String author;
     private static String title;
-    private static String book;
 
-    public static String of(String author, String title) {
-        Book.book = author + ", " + title;
+    public Book(String author, String title) {
+        this.author = author;
+        this.title = title;
+    }
 
-        return Book.book;
+    public static Book of(String author, String title) {
+        return new Book(author, title);
     }
 }
