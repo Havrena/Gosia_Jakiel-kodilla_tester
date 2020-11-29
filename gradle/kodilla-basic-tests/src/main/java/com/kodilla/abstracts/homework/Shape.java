@@ -1,11 +1,15 @@
 package com.kodilla.abstracts.homework;
 
-import java.awt.geom.Area;
-
 public abstract class Shape {
-    private double area;
+    public double area;
+    public double perimeter;
+    public double sideA;
 
-    public Shape(double Area) {
-        this.area = area;
+    public Shape(double sideA) {
+        this.sideA = sideA;
     }
+
+    public abstract void showArea();
+
+    public abstract void showPerimeter();
 }

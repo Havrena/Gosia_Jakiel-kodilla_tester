@@ -59,6 +59,9 @@ public class Colour {
                     return "Y";
                 case "Z":
                     return "Z";
+                case "3":
+                    System.out.println("Incorrect value");
+                    break;
                 default:
                     System.out.println("Wrong input. Try again.");
             }

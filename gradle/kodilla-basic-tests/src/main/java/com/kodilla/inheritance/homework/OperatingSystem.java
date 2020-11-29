@@ -1,4 +1,5 @@
 package com.kodilla.inheritance.homework;
+
 public class OperatingSystem {
     public int year;
 
@@ -12,10 +13,6 @@ public class OperatingSystem {
 
     public void turnOff() {
         System.out.println("Device was turned off");
-    }
-
-    public int getYear() {
-        return year;
     }
 
     public void displayYear() {
